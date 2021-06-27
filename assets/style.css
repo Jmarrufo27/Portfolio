@@ -26,29 +26,20 @@ header {
     text-shadow: -5px 3px 5px rgb(201, 157, 77)
     
 }
+
+.heading {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+
+}
+
 nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: whitesmoke;
-    /*list-style: none;
-    height: 75px;
-    align-items: center;
-    border-bottom: 10px solid rgba(208, 144, 202, 100);
-    font-size: 45px;
-   background-color: whitesmoke;*/
 }
-/*
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    height: 75px;
-    align-items: center;
-    border-bottom: 10px solid rgba(208, 144, 202, 100)
-}
-*/
+
 a {
     text-decoration: none;
     list-style: none;
@@ -60,7 +51,6 @@ a {
     font-weight: bolder;
     font-style: oblique;
 }
-
 
 .profile-pic-container {
     display: flex;
@@ -74,7 +64,6 @@ a {
     border-radius: 50%;
     box-shadow: orange;
 }
-
 
 .style1 {
     position: relative;
@@ -92,16 +81,28 @@ a {
     position: relative;
     bottom: 475px;
 }
+
+
 body {
     background: var(--background);
 
 }
 
 .card-container {
+    position: relative;
+    bottom: 300px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     justify-content: space-evenly;
 
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 600px) {
@@ -113,5 +114,19 @@ body {
         flex-direction: column;
         align-items: center;
     }
+    .contact-links {
+        flex-direction: column;
+        text-align: center;
+    }
 }
     
+.expand:hover {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    height: auto;
+    width: 500px;
+    display: block;
+    z-index: 900;
+    
+}
