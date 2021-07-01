@@ -37,13 +37,23 @@ a:focus {
 
 .nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: start;
     align-items: center;
     background-color: rgb(228, 174, 74);
     font-family: "Audiowide", sans-serif;
     font-weight: bolder;
-    font-size: x-large;
-    min-height: 2em;
+    font-size: 40px;
+    border-left: black solid 10px;
+}
+.about-me {
+    margin: 0px 30px;
+    margin-left: 100px;
+}
+.projects {
+    margin: 0px 30px;;
+}
+.contact-me {
+    margin: 0px 30px;
 }
 
 .introduction {
@@ -55,34 +65,64 @@ a:focus {
     padding-top: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
-    margin-left: 300px;
     margin-top: 50px;
 
 }
 
-.about-me {
+.about-me-section {
     width: 300px;
     height: 300px;
     margin-top: 40px;
-    margin-left: 376px; 
     text-align: left;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: rgb(228, 174, 74)ange;
-    border-left: 10px solid rgb(85, 40, 85);
+    border-left: 10px solid rgb(228, 174, 74);
 }
 
+.img-1{
+    display: flex;
+    justify-content: start;
+    background-image: image(black, );
+}
 
+.pic1 {
+    position: static;
+    height: 300px;
+    border: 20px;
+}
 
+.aligner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
 
+}
+.whole-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 0px;
+}
 
+#grad-left {
+    width: 100px;
+    height: 2000px;
+    border-left: 10px solid black;
+    background-image: linear-gradient(to bottom, rgb(85, 40, 85), rgb(228, 174, 74) );
+    margin: 50px 0px;
+}
 
+#grad-right {
+    width: 100px;
+    height: 2000px;
+    border-right: 10px solid black;
+    background-image: linear-gradient(to bottom, rgb(228, 174, 74), rgb(85, 40, 85) );
+    margin: 50px 0px;
+}
 
-
-
-
-
-
+ 
 
 
 
