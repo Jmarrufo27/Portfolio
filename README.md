@@ -1,5 +1,4 @@
-**This is my Profesional**
-Profesional Portfolio 
+**This is my Profesional Portfolio**
 
 Includes: navigation bar with links to section on the page
 
