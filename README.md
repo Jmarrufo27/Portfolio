@@ -15,5 +15,4 @@ Includes: navigation bar with links to section on the page
 Deployed Page
 https://jmarrufo27.github.io/profesional-portfolio/
 
-
-![ScreenCastify Video of Portfolio](assets\Portfolio_ScreenCast.mp4)
+https://user-images.githubusercontent.com/83188339/129521057-7fb00e2d-cfa6-47ee-a47b-9407cb2691c9.mp4
