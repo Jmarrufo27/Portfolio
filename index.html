@@ -5,56 +5,117 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jose Marrrufo|Profesional Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylereset" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+
+
     <header>
         <nav class="nav">
-            <img class="logo" style= "width: 50px; height: 50px;" src="/assets/Jm.png" alt="logo">
-            <a class="about-me" href="#About-me">About Me</a>
-            <a class="projects" href="#">Projects</a>
-            <a class=" contact-me" href="#">Contact Me</a>
+            <img class="logo" style= "border: yellow solid 2px; width: 100px; height: 100px;" src="./assets/Jm.png" alt="logo">
+            <a href="#About-me">About Me</a>
+            <a  href="#Projects">Projects</a>
+            <a  href="#">Contact Me</a>
+            <img class="logo" style= "border: yellow solid 2px; width: 100px; height: 100px;" src="./assets/Jm.png" alt="logo">
         </nav>
     </header>
         
     
-    <main class="aligner">
     
-        <div id="grad-left"></div>
+    <div id="grad-left"></div> 
+    <div id="grad-right"></div>
     
-    
-            <section class="whole-wrapper">
-                <div class="introduction">
-                    <h1> Hello, my name is JOSE MARRUFO </h1>
+    <section class="whole-wrapper">
+        <div class="introduction">
+            <h1> Hello, my name is JOSE MARRUFO </h1>
+        </div>
+
+        <div class="decoration">
+
+            <div style="height: 70px; width: 70px; border-radius: 35px; background-image: linear-gradient(to bottom, rgb(228, 174, 74), rgb(85, 40, 85) ); margin: 20px 0px;"></div>
+            <div style="height: 70px; width: 70px; border-radius: 35px; background-image: linear-gradient(to top, rgb(228, 174, 74), rgb(85, 40, 85) ); margin: 20px 0px;"></div>
+            <div style="height: 70px; width: 70px; border-radius: 35px; background-image: linear-gradient(to bottom, rgb(228, 174, 74), rgb(85, 40, 85) ); margin: 20px 0px;"></div>
+
+        </div>
+
+        <figure class="img-1">
+            <img id="About-me" class= "pic1" src="./assets/profilePicSmaller.jpg" alt="Pic of Me">
+        </figure>
+
+        <section  class="about-me-section">
+            <article >
+                <h2>About Me</h2>
+                I am a currently learning Full Stack development at a coding bootcamp through the UCI Division of Continuing Education. My short term goal is to land a Full Stack Jr. Developer postion to gain experience and one day land a Full Stack engineer position. I have a limited background in Bioengineering and I am excited to be able to positively impact the people and world around me.
+            </article>
+        </section>
+
+        <div class="decoration">
+
+            <div style="height: 70px; width: 70px; border-radius: 35px; background-image: linear-gradient(to bottom, rgb(228, 174, 74), rgb(85, 40, 85) ); margin: 20px 0px;"></div>
+            <div style="height: 70px; width: 70px; border-radius: 35px; background-image: linear-gradient(to top, rgb(228, 174, 74), rgb(85, 40, 85) ); margin: 20px 0px;"></div>
+
+        </div>
+
+        <h2 class="projects-label"> Projects </h2>
+
+        <section id="Projects" class="projects">
+ 
+
+            <div class="card" style="width: 20rem;">
+                <img src="./assets/Brewery_Roulette_screenshot.jpg" class="card-img-top" alt="brewery-roulette-pic">
+                <div class="card-body">
+                    <h5 class="card-title">Brewery Roulette</h5>
+                    <p class="card-text">An applicaiton that picks a random brewery of your choice based on your location so you can relax and enjoy!</p>
+                    <a style="color: white;" href="https://jmarrufo27.github.io/Brewery_Roulette/" target="_blank" class="btn btn-dark">Launch Site!</a>
                 </div>
+            </div>
 
-                <figure class="img-1">
-                    <img class= "pic1" src="./assets/profilePicSmaller.jpg" alt="Pic of Me">
-                </figure>
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/coming_soon_img.jpg" class="card-img-top" alt="comming-soon-pic">
+                <div class="card-body">
+                    <h5 class="card-title">Coming Soon</h5>
+                    <p class="card-text">Coming Soon!</p>
+                    <a href="#" target="_blank" class="btn btn-dark" style="color: white;">Go Nowhere</a>
+                </div>
+            </div>
+        </section> 
 
-                <section class="about-me-section">
-                    <article>
-                        <h2 id="About-me">About Me</h2>
-                        I am a currently learning Full Stack development at a coding bootcamp through the UCI Division of Continuing Education. My short term goal is to land a Full Stack Jr. Developer postion to gain experience and one day land a Full Stack engineer position. I have a limited background in Bioengineering and I am excited to be able to positively impact the people and world around me.
-                    </article>
-                </section>
-        
-            </section>
+        <div class="decoration">
 
-        <div id="grad-right"></div>
-    
+
+            <div style="height: 70px; width: 70px; border-radius: 35px; background-image: linear-gradient(to top, rgb(228, 174, 74), rgb(85, 40, 85) ); margin: 20px 0px;"></div>
+
+        </div>
+
+        <h2 class="projects-label">Contact Me</h2>
+
+        <footer>
+            <a href="https://github.com/Jmarrufo27"><i class="fab fa-github fa-4x"></i></a>
+            <a href="https://www.linkedin.com/in/jose-marrufo-034a01210/"><i class="fab fa-linkedin fa-4x"></i></a>
+            <a href="#"><span><i class="fab fa-instagram fa-4x"></i></span></a>
+        </footer>
+    </section>
+
+   
+
+
+
+
+
+
+         
   
-    <main>
     
+                                                         <!-- old old -->
     
-
-    
-<!--
+<!-- 
     <section>
         <p class="title-font">Hello, my name is </p>
         <p class="title"> JOSE MARRUFO</p>>
@@ -106,10 +167,10 @@
             <a href="#">GitHub</a>
             <a href="#">Instagram</a>
         </div>
-    </footer>
--->
+    </footer> -->
 
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 </body>
 
