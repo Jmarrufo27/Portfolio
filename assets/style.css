@@ -14,28 +14,34 @@ h1, h2, h3, p, article {
 a {
     text-decoration: none;
 }
+
 a:link {
     color: black;
 }
 a:visited {
     color: black;
 }
-a:hover {
-    color: rgb(85, 40, 85);
-    border-bottom: 5px solid black;
-    border-left: 7px ridge rgb(85, 40, 85);
-    border-right: 7px ridge rgb(85, 40, 85);
-    box-shadow: -4px 4px 5px rgba(77, 74, 74, 0.767);
-    transform: rotate(5deg);
-}
+
 a:active {
     color: rgb(85, 40, 85);
 }
+
+a:hover {
+    color: rgb(85, 40, 85);
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    border-left: 7px solid rgb(85, 40, 85);
+    border-right: 7px solid rgb(85, 40, 85);
+    box-shadow: -4px 4px 5px rgba(77, 74, 74, 0.767);
+    transform: rotate(5deg);
+}
+
 a:focus {
     color: rgb(85, 40, 85);
     border-bottom: 5px solid black;
-    border-left: 7px ridge rgb(85, 40, 85);
-    border-right: 7px ridge rgb(85, 40, 85);
+    border-top: 5px solid black;
+    border-left: 7px solid rgb(85, 40, 85);
+    border-right: 7px solid rgb(85, 40, 85);
     box-shadow: -4px 4px 5px rgba(77, 74, 74, 0.767);
 }
 
@@ -154,157 +160,3 @@ footer {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*                            ORIGINAL TRY
-header {
-    width: 100%;
-    text-align: center;
-
-
-}
-.title {
-    text-align: center;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
-    font-style: oblique;
-    text-shadow: -5px 3px 5px rgb(201, 157, 77);
-    color: black;
-}
-.title-font {
-    text-align: center;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
-    font-style: oblique;
-    text-shadow: -5px 3px 5px rgb(201, 157, 77)
-    
-}
-
-.heading {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
-
-}
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: whitesmoke;
-}
-
-a {
-    text-decoration: none;
-    list-style: none;
-    border-bottom: 10px solid rgba(208, 144, 202, 100);
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
-    font-style: oblique;
-}
-
-.profile-pic-container {
-    display: flex;
-    justify-content: center;
-}
-
-.profile-pic {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: orange;
-}
-
-.style1 {
-    position: relative;
-    top: -75px;
-    z-index: -5;
-    height: 400px;
-    width: 100%;
-    background-color: var(--purple);
-}
-.about-me {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
-    font-weight: lighter;
-    font-style: normal ;
-    position: relative;
-    bottom: 475px;
-}
-
-
-body {
-    background: var(--background);
-
-}
-
-.card-container {
-    position: relative;
-    bottom: 300px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    justify-content: space-evenly;
-
-}
-
-.contact-links {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-@media screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-    .card-container{
-        flex-direction: column;
-        align-items: center;
-    }
-    .contact-links {
-        flex-direction: column;
-        text-align: center;
-    }
-}
-    
-.expand:hover {
-    position: relative;
-    top: 20px;
-    left: 30px;
-    height: auto;
-    width: 500px;
-    display: block;
-    z-index: 900;
-
-}
-
-*/
